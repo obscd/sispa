@@ -31,6 +31,3 @@ dw_php_codehinting.config
 
 # Ignore code-workspaces
 *.code-workspace
-
-# logs
-logs/*.txt
