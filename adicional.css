@@ -1,0 +1,110 @@
+table, thead, td, th {
+            font-size: 11px;
+        }
+        th {
+            color: white !important;
+			background-color:#2A3F54;
+            text-align: center;
+            vertical-align: middle !important;
+			height:40px;
+        }
+
+        td.par {
+            text-align: center;
+            vertical-align: middle !important;
+            background-color: #f9f9f9;
+        }
+        td.impar {
+            text-align: center;
+            vertical-align: middle !important;
+            background-color: #fff;
+        }
+        table.filtros {
+            border-collapse: collapse;
+        }
+
+        table.filtros td, table.filtros th {
+            padding: 5px;
+            text-align: center;
+        }
+        table.filtros th{
+            color: black;
+        }
+        td.rojo{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle !important;
+            font-weight: bold;
+            background-color: white; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(90deg,white, #d52b1c); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(90deg,white, #d52b1c); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(90deg,white, #d52b1c); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(90deg,white, #d52b1c); /* Standard syntax */
+        }
+        td.amarillo{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle !important;
+            font-weight: bold;
+            background-color: white; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(90deg,white, #ffe001); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(90deg,white, #ffe001); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(90deg,white, #ffe001); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(90deg,white, #ffe001); /* Standard syntax */
+        }
+        td.verde{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle !important;
+            font-weight: bold;
+            background-color: white; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(90deg,white, #007932); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(90deg,white, #007932); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(90deg,white, #007932); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(90deg,white, #007932); /* Standard syntax */
+        }        
+		.modal-lg {
+    width: 75%;
+}
+.x_title {
+    border-bottom: 0px solid #E6E9ED;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.page-title .title_left {
+    width: 100%;
+    float: right;
+    display: block;
+    background-color: white;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
+.tile_stats_count {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.count_bottom{
+	    float: right;
+	
+}
+.h1, h1 {
+    font-size: 26px;
+}
+.panel_toolbox>li>a {
+    padding: 5px;
+    color: #3073ac;
+    font-size: 14px;
+}
+.thne{
+display:flex;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;
+}
+.site_title {
+    text-align: center;
+}
